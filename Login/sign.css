@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Oswald:wght@300&display=swap');
+body{
+    background: linear-gradient(to right, rgb(6, 139, 228), rgb(233, 8, 214) );
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.login-container{
+    width:460px;
+    background-color: rgb(255, 255, 255, .5);
+    border-radius: 10px;
+    margin: 200px auto;
+    padding: 2rem;;
+
+}
+
+img{
+    width:10rem;
+}
+.heder{
+    text-align: center;
+}
+
+.login-pas{
+    
+    text-align: center;
+    margin: 4px;
+    
+}
+.login-pas input {
+    border: 0.1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+button{
+    display: block;
+    margin:15px auto;
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    font-size:16px;
+}
+
+.check{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
