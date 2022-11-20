@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  .block-1 .logotip .logo {
+    width: 7rem;
+  }
+  .block-1 .navigation .nav {
+    font-size: 2.5vw;
+  }
+  .block3 .page img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .block3 .page1 img {
+    width: 100%;
+  }
+  .block3 .page2 img {
+    width: 100%;
+  }
+  .block5 {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 425px) {
+  .block-1 .nav-line .logo {
+    width: 0;
+  }
+  .block-1 .nav-line .navigation .nav {
+    font-size: 8vw;
+  }
+  .block-1 h1 {
+    font-size: 7vw;
+    text-align: center;
+    width: 70%;
+  }
+}/*# sourceMappingURL=mobile.css.map */

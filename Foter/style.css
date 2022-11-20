@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/block1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block-1 .nav-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.block-1 .nav-line .logo {
+  width: 10rem;
+}
+.block-1 .nav-line .nav {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 1.5vw;
+}
+.block-1 h1 {
+  color: white;
+  font-size: 4vw;
+  display: block;
+  margin: 300px auto;
+  text-shadow: 8px 6px 1px black;
+  border-bottom: 1px solid white;
+  width: 50%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.yniqe-story {
+  text-align: center;
+  margin-top: 100px;
+}
+.yniqe-story h2 {
+  font-size: 2vw;
+  font-weight: 700;
+}
+.yniqe-story .line-bord {
+  width: 50px;
+  border-bottom: 2px solid rgba(112, 103, 103, 0.5);
+  margin: 0 auto;
+}
+.yniqe-story .context {
+  font-size: 1vw;
+  margin-top: 50px;
+}
+
+.block3 {
+  margin: 60px 5px;
+  overflow: hidden;
+}
+.block3 .page img {
+  float: left;
+  margin-right: 10px;
+}
+.block3 .page1 img {
+  margin-bottom: 5px;
+}
+
+.block4 h3 {
+  text-align: center;
+  font-size: 2vw;
+}
+.block4 .line {
+  width: 50px;
+  border-bottom: 2px solid rgba(112, 103, 103, 0.5);
+  margin: 0 auto;
+}
+.block4 .summa {
+  display: flex;
+  justify-content: center;
+}
+.block4 .summa .pop {
+  margin-right: 50px;
+  font-size: 1.4vw;
+  font-weight: 200;
+}
+.block4 .summa .pop::first-line {
+  font-weight: 700;
+}
+
+.block5 {
+  width: 100%;
+  height: 500px;
+  background-image: url(img/blo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block5 .display-lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 190px;
+}
+.block5 .display-lines .lin1 {
+  width: 50px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.block5 .display-lines .enjoy {
+  color: rgb(0, 0, 0);
+  font-size: 3vw;
+  font-weight: 900;
+  padding: 40px;
+  white-space: nowrap;
+}
+.block5 .display-lines .lin2 {
+  width: 40px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}/*# sourceMappingURL=style.css.map */
